@@ -11,6 +11,6 @@ class Student
   end
 
   def grade
-    (scores.sum).div(scores.length)
+    (scores.sum).to_f/(scores.length).to_f
   end
 end
